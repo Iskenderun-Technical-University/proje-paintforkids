@@ -52,3 +52,8 @@ Sınıf Diyagramı taslak olarak çizilmiştir.Daha sonra üzerinde düzenlenmel
 
 [yazılım-gereksinim-analizi(srs)-painforkids.pdf](https://github.com/Iskenderun-Technical-University/proje-paintforkids/files/8580302/yazilim-gereksinim-analizi.srs.-painforkids.pdf)
 
+## Taslak Arayüz Tasarımı 
+
+![arayüz-taslak](https://user-images.githubusercontent.com/100669925/165700426-c9a264b9-e250-49cd-85b3-97c6d27b3d01.PNG)
+
+
