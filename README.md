@@ -49,4 +49,5 @@ Sınıf Diyagramı taslak olarak çizilmiştir.Daha sonra üzerinde düzenlenmel
 ![uml drawio](https://user-images.githubusercontent.com/100669925/163711416-e8c71aa4-debc-4aa3-aa45-816476dfe062.png)
 
 ## Yazılım Gereksinim Analizi
-[yazılım-gereksinim-analizi-paintforkids.pdf](https://github.com/Iskenderun-Technical-University/proje-paintforkids/files/8550330/yazilim-gereksinim-analizi-paintforkids.pdf)
+[yazılım-gereksinim-analizi-paintforkids.pdf](https://github.com/Iskenderun-Technical-University/proje-paintforkids/files/8580036/yazilim-gereksinim-analizi-paintforkids.pdf)
+
