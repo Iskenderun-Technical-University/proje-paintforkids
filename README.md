@@ -28,7 +28,7 @@
   
   :heavy_check_mark: Kullanıcı etkileşimine girecek yapıların belirlenmesi (17.04.2022) 
   
-  - [ ] Arayüz tasarımının oluşturulması (30.04.2022)
+  :heavy_check_mark: Arayüz tasarımının oluşturulması (30.04.2022)
  
   - [ ] Projenin bir kısmınının kodlanması (30.04.2022)
  
