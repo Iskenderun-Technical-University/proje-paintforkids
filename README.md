@@ -28,17 +28,17 @@
   
   :heavy_check_mark: Kullanıcı etkileşimine girecek yapıların belirlenmesi (17.04.2022) 
   
-  - [ ] Arayüz tasarımının oluşturulması (28.04.2022)
+  - [ ] Arayüz tasarımının oluşturulması (30.04.2022)
  
-  - [ ] Projenin bir kısmınının kodlanması (28.04.2022)
+  - [ ] Projenin bir kısmınının kodlanması (30.04.2022)
  
-  - [ ] Kullanıcı etkileşim yapılarının tasarıma dahil edilmesi (30.04.2022) 
+  - [ ] Kullanıcı etkileşim yapılarının tasarıma dahil edilmesi (05.04.2022) 
 
-  - [ ] Gereksinimlerin modüllere ayrılarak kodlamanın yapılması (10.05.2022)
+  - [ ] Gereksinimlerin modüllere ayrılarak kodlamanın devam ettirilmesi (10.05.2022)
   
-  - [ ] Projenin son haline düzenlemeler yapılması (12.05.2022)
+  - [ ] Projenin son haline düzenlemeler yapılması (18.05.2022)
 
-  - [ ] Varsa hataların giderilmesi (15.05.2022) 
+  - [ ] Varsa hataların giderilmesi (20.05.2022) 
 ## Kişiler 
   - Okan Cingöz
   
