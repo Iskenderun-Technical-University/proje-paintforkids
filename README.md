@@ -30,15 +30,15 @@
   
   :heavy_check_mark: Arayüz tasarımının oluşturulması (30.04.2022)
  
-  - [ ] Projenin bir kısmınının kodlanması (30.04.2022)
+  :heavy_check_mark:  Projenin bir kısmınının kodlanması (05.05.2022)
  
-  - [ ] Kullanıcı etkileşim yapılarının tasarıma dahil edilmesi (05.04.2022) 
+  :heavy_check_mark:  Kullanıcı etkileşim yapılarının tasarıma dahil edilmesi (10.05.2022) 
 
-  - [ ] Gereksinimlerin modüllere ayrılarak kodlamanın devam ettirilmesi (10.05.2022)
+  - [ ] Kodlamanın devam ettirilmesi (20.05.2022)
   
-  - [ ] Projenin son haline düzenlemeler yapılması (18.05.2022)
+  - [ ] Projenin son haline düzenlemeler yapılması (25.05.2022)
 
-  - [ ] Varsa hataların giderilmesi (20.05.2022) 
+  - [ ] Varsa hataların giderilmesi (25.05.2022) 
 ## Kişiler 
   - Okan Cingöz
   
