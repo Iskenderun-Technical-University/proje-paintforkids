@@ -44,8 +44,6 @@
   
 ## Sınıf Diyagramı
 
-Sınıf Diyagramı taslak olarak çizilmiştir.Daha sonra üzerinde düzenlenmeler yapılacaktır.
-
 ![uml drawio](https://user-images.githubusercontent.com/100669925/163711416-e8c71aa4-debc-4aa3-aa45-816476dfe062.png)
 
 ## Yazılım Gereksinim Analizi
@@ -53,7 +51,8 @@ Sınıf Diyagramı taslak olarak çizilmiştir.Daha sonra üzerinde düzenlenmel
 [yazılım-gereksinim-analizi(srs)-painforkids.pdf](https://github.com/Iskenderun-Technical-University/proje-paintforkids/files/8580302/yazilim-gereksinim-analizi.srs.-painforkids.pdf)
 
 ## Taslak Arayüz Tasarımı 
+![paintapp](https://user-images.githubusercontent.com/100669925/168276337-3e0f6d6a-0561-4f56-94cc-4f90b6229a5a.PNG)
 
-![arayüz-taslak](https://user-images.githubusercontent.com/100669925/165700426-c9a264b9-e250-49cd-85b3-97c6d27b3d01.PNG)
+
 
 
