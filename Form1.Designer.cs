@@ -29,6 +29,8 @@ namespace PaintApp
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_clear = new System.Windows.Forms.Button();
             this.color_picker = new System.Windows.Forms.PictureBox();
             this.btn_circle = new System.Windows.Forms.Button();
             this.btn_rectangle = new System.Windows.Forms.Button();
@@ -49,6 +51,8 @@ namespace PaintApp
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel1.Controls.Add(this.btn_save);
+            this.panel1.Controls.Add(this.btn_clear);
             this.panel1.Controls.Add(this.color_picker);
             this.panel1.Controls.Add(this.btn_circle);
             this.panel1.Controls.Add(this.btn_rectangle);
@@ -62,8 +66,30 @@ namespace PaintApp
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1482, 163);
+            this.panel1.Size = new System.Drawing.Size(1614, 163);
             this.panel1.TabIndex = 0;
+            // 
+            // btn_save
+            // 
+            this.btn_save.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_save.ForeColor = System.Drawing.Color.White;
+            this.btn_save.Location = new System.Drawing.Point(1482, 21);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(116, 47);
+            this.btn_save.TabIndex = 10;
+            this.btn_save.Text = "Kaydet";
+            this.btn_save.UseVisualStyleBackColor = false;
+            // 
+            // btn_clear
+            // 
+            this.btn_clear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_clear.ForeColor = System.Drawing.Color.White;
+            this.btn_clear.Location = new System.Drawing.Point(1482, 84);
+            this.btn_clear.Name = "btn_clear";
+            this.btn_clear.Size = new System.Drawing.Size(116, 47);
+            this.btn_clear.TabIndex = 9;
+            this.btn_clear.Text = "Sil";
+            this.btn_clear.UseVisualStyleBackColor = false;
             // 
             // color_picker
             // 
@@ -86,6 +112,7 @@ namespace PaintApp
             this.btn_circle.Text = "Çember";
             this.btn_circle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_circle.UseVisualStyleBackColor = false;
+            this.btn_circle.Click += new System.EventHandler(this.btn_circle_Click);
             // 
             // btn_rectangle
             // 
@@ -99,6 +126,7 @@ namespace PaintApp
             this.btn_rectangle.Text = "Dikdörtgen";
             this.btn_rectangle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_rectangle.UseVisualStyleBackColor = false;
+            this.btn_rectangle.Click += new System.EventHandler(this.btn_rectangle_Click);
             // 
             // btn_pencil
             // 
@@ -124,6 +152,7 @@ namespace PaintApp
             this.btn_line.Text = "Çizgi";
             this.btn_line.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_line.UseVisualStyleBackColor = false;
+            this.btn_line.Click += new System.EventHandler(this.btn_line_Click);
             // 
             // btn_fill
             // 
@@ -148,6 +177,7 @@ namespace PaintApp
             this.btn_eraser.Text = "Silgi";
             this.btn_eraser.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btn_eraser.UseVisualStyleBackColor = false;
+            this.btn_eraser.Click += new System.EventHandler(this.btn_eraser_Click);
             // 
             // btn_Color
             // 
@@ -186,9 +216,9 @@ namespace PaintApp
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 764);
+            this.panel2.Location = new System.Drawing.Point(0, 757);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1482, 39);
+            this.panel2.Size = new System.Drawing.Size(1614, 39);
             this.panel2.TabIndex = 1;
             // 
             // pic
@@ -196,9 +226,10 @@ namespace PaintApp
             this.pic.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pic.Location = new System.Drawing.Point(0, 163);
             this.pic.Name = "pic";
-            this.pic.Size = new System.Drawing.Size(1482, 601);
+            this.pic.Size = new System.Drawing.Size(1614, 594);
             this.pic.TabIndex = 2;
             this.pic.TabStop = false;
+            this.pic.Paint += new System.Windows.Forms.PaintEventHandler(this.pic_Paint);
             this.pic.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pic_MouseDown);
             this.pic.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pic_MouseMove);
             this.pic.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pic_MouseUp);
@@ -207,10 +238,11 @@ namespace PaintApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1482, 803);
+            this.ClientSize = new System.Drawing.Size(1614, 796);
             this.Controls.Add(this.pic);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PaintforKids";
@@ -236,5 +268,7 @@ namespace PaintApp
         private Panel panel3;
         private PictureBox color_picker;
         private PictureBox pic;
+        private Button btn_save;
+        private Button btn_clear;
     }
 }
