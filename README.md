@@ -54,6 +54,7 @@
 ![paintapp](https://user-images.githubusercontent.com/100669925/168276337-3e0f6d6a-0561-4f56-94cc-4f90b6229a5a.PNG)
 
 :heavy_check_mark: Arayüze Ekleme Yapıldı 
+
 :heavy_check_mark: Bazı butonların kodları yazıldı
 
 ![arayuz2](https://user-images.githubusercontent.com/100669925/169649369-e48d58cb-a7bb-4c3f-86cb-b2b1ece39e7d.PNG)
