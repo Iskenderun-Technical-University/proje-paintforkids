@@ -56,6 +56,7 @@
 :heavy_check_mark: Peojenin tüm kodları yazıldı
 
 ## Tamamlanmış Arayüz Tasarımı 
-![arayuz2](https://user-images.githubusercontent.com/100669925/169649369-e48d58cb-a7bb-4c3f-86cb-b2b1ece39e7d.PNG)
+![projesontasarım](https://user-images.githubusercontent.com/100669925/170778453-e1c4a2de-b18c-4619-93b2-9cb802de7cbd.PNG)
+
 
 
