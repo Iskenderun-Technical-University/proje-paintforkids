@@ -5,7 +5,7 @@
  Projenin amacı bilgisayar üzerinde resim çizme,düzenleme vb. için kullanabileceğimiz bir arayüz oluşturmaktır.Aynı zamanda mevcut resim dosyaları 
  üzerinde de işlem yapabilmeye olanak tanır.Kullanım senaryolarına göre kullanıcı birçok amaç için bu uygulamayı kullanabilir.Basit veya yaratıcı 
  tasarımlar oluşturulabilir.Hayal gücünü geliştirmek için istediği çizimleri yapabilir veya var olan bir resim dosyası üzerinde düzenlemeler yapabilir.
- Yaptığı çizimleri indirebilir ve dışardan dosya ekleyip üzerinde çalışabilir.
+ Yaptığı çizimleri indirebilir.
  
  Proje seçiminde bu projeye referans olarak aldığım [Microsoft](https://www.microsoft.com/tr-tr)'un geliştirmiş olduğu MSPaint uygulamasıdır.
  Microsoft Windows işletim sisteminin ilk çıkışından itibaren hemen hemen her sürümünde bulunan bir çizim programıdır.Windows'un her yeni sürümünde 
@@ -14,9 +14,7 @@
  tepkiler almış ve vazgeçmiştir.
  
  Hali hazırda MSPaint kullanıcılarının bu türde bir uygulama için neredeyse birçok ihtiyacını karşılamaktadır.Benim amacım ise bu projeyi daha çok gelişme 
- çağındaki çocuklar için özelleştirmektir.Projede mevcut olan özelliklerin üstüne çocukların hayal gücünü daha etkili kullanması için hazır tema ve 
- şablonlar kullanmak ve bu bileşenler üzerinde çocukların çizim yapması amaçlanmaktadır.Farklı renk seçenekleriyle bu temaları zenginleştirerek ortaya 
- etkili çizimler çıkarabilirler.
+ çağındaki çocuklar için özelleştirmektir.Çocuklar için daha kullanışlı ve basit bir arayüz amaçlanmıştır.
  
  ## Use Case Diagram 
 ![PaintforKids](https://user-images.githubusercontent.com/100669925/158017451-a7640798-c85d-4ac7-9b4f-46dd33482fb1.png)
@@ -36,9 +34,9 @@
 
   :heavy_check_mark: Kodlamanın devam ettirilmesi (20.05.2022)
   
-  - [ ] Projenin son haline düzenlemeler yapılması (25.05.2022)
+   :heavy_check_mark: Projenin son haline düzenlemeler yapılması (27.05.2022)
 
-  - [ ] Varsa hataların giderilmesi (25.05.2022) 
+   :heavy_check_mark: Varsa hataların giderilmesi (27.05.2022) 
 ## Kişiler 
   - Okan Cingöz
   
